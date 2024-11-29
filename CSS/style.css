@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header 
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: "Handjet", sans-serif;
+    font-weight: 1200;
+    font-size: 20px;
+}
+header a
+{
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    margin:0  70px ;
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    color: rgba(0, 0, 0, 0.589);
+    padding: 15px;
+    font-size: 23px;
+}
+body
+{
+    font-family: sans-serif;
+    background-color: #f5f5dc;
+}
+main
+{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 140px;
+    padding: 160px 0px;
+}
+main h2
+{
+    font-size: 80px;
+    color: rgb(190, 41, 41);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700 ;
+}
+main li
+{
+ font-size: 46px;
+ font-family: "Montserrat", sans-serif;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+main li:hover{
+    color: brown;
+    font-size: 47px;
+    font-weight: 550;
+}
+.medo
+{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    left: 10px;
+    padding: 70px;
+}
+footer
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+    margin: 1vh;
+}
+footer nav{
+    position: absolute;
+    left: 30px;
+    color:#f5f5dc;
+    font-size: 11px;
+}
+.junto 
+{
+    background-color: #ff000038;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 30px;
+}
+li
+{
+    list-style: none;
+}.caixa
+{
+    background-color: #64351f46;
+    padding: 9px;
+    margin: 0px 20px 10px 0px;
+    border-radius: 10px;
+}
+.direitos{
+    position: absolute;
+    top: 114vh;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.623);
+    font-family: "Bebas neue";
+}
+.icon{
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    left: 10px;
+}
